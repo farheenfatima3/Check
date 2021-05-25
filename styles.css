@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Noto+Sans+KR&display=swap');
+
+body {
+    font-family: 'Lora', serif;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+:root {
+    --primary-color: #10B981;
+    --purple: #A78BFA;
+    --indigo:#E0E7FF;
+}
+
+.container {
+    padding: 0rem 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: white;
+}
+
+.link-primary {
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 1rem;
+    border: 2px solid var(--primary-color)
+}
+
+hr {
+    margin: 1rem 0rem;
+}
+
+.no-bullets {
+    list-style: none;
+}
+
+.list {
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+.navigations {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.navigations .nav-brand {
+    font-weight: bold;
+}
+
+.navigations .nav-pills {
+    text-align: right;
+}
+
+.navigations .active {
+    font-weight: bold;
+}
+
+.hero {
+    padding: 1rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+.hero .heading {
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.hero .heading .highlight {
+    color: var(--purple);
+}
+
+.active{
+    font:weight:bold;
+}
+
+.section-class h1{
+    text-align:center;
+}
+.section{
+    padding:2rem;
+}
+.ow{
+    background-color:var(--indigo);
+    color:var(--primary-color);
+}
+.footer{
+    background-color:var(--primary-color);
+    text-align:center;
+    padding:2rem;
+}
+.footer ul{
+margin-block-start:2em;
+}
