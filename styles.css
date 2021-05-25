@@ -7,8 +7,8 @@ body {
 
 :root {
     --primary-color: #10B981;
-    --purple: #A78BFA;
-    --indigo:#E0E7FF;
+    --purple: #8B5CF6;
+    --emerald: #ECFDF5;
 }
 
 .container {
@@ -22,7 +22,7 @@ body {
 
 .link {
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding:0rem 2rem;
     color: white;
 }
 
@@ -97,18 +97,25 @@ hr {
 .section-class h1{
     text-align:center;
 }
-.section{
+.section-class{
     padding:2rem;
 }
+.block{
+    display:block;
+}
 .ow{
-    background-color:var(--indigo);
-    color:var(--primary-color);
+    background-color:var(--emerald);
 }
 .footer{
     background-color:var(--primary-color);
     text-align:center;
-    padding:2rem;
+    padding:2rem 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+.footer .ref{
+    color:white;
 }
 .footer ul{
-margin-block-start:2em;
+    padding-inline-start:0px;
 }
