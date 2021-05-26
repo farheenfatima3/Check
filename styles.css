@@ -6,7 +6,7 @@ body {
 }
 
 :root {
-    --primary-color: #10B981;
+    --primary-color: #34D399;
     --purple: #8B5CF6;
     --emerald: #ECFDF5;
 }
@@ -79,6 +79,7 @@ hr {
     max-width: 350px;
     margin: auto;
     display: block;
+    padding-top:2rem;
 }
 
 .hero .heading {
